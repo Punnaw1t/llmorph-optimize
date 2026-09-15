@@ -1,0 +1,217 @@
+{
+    "llm_name": "gemma-3-4b-it-q4_k_m",
+    "task_name": "question_answering",
+    "relation_name": "5",
+    "data": [
+        {
+            "id": 0,
+            "source_input": [
+                "Multiple-choice question answering (MCQA) is one of the most challenging tasks in machine reading comprehension since it requires more advanced reading comprehension skills such as logical reasoning, summarization, and arithmetic operations. Unfortunately, most existing MCQA datasets are small in size, which increases the difficulty of model learning and generalization. To address this challenge, we propose a multi-source meta transfer (MMT) for low-resource MCQA. In this framework, we first extend meta learning by incorporating multiple training sources to learn a generalized feature representation across domains. To bridge the distribution gap between training sources and the target, we further introduce the meta transfer that can be integrated into the multi-source meta training. More importantly, the proposed MMT is independent of backbone language models. Extensive experiments demonstrate the superiority of MMT over state-of-the-arts, and continuous improvements can be achieved on different backbone networks on both supervised and unsupervised domain adaptation settings.",
+                "Does this review explore how AI methodologies, such as machine learning and neural networks, enhance flavor profiling, personalized scent creation, and the diagnosis of sensory disorders?"
+            ],
+            "source_output": "unknown",
+            "followup_inputs": [
+                [
+                    "M ul t ipl e -c h oi c e q u est i o n  a n sw er ing  (MC QA) i s o n e o f th e  m o s t  cha l le n gi n g  t as k s i n m a c h i n e  r e a d in g  c o m pre h en s i on  s i n c e  i t  r e q u ir e s  m or e  a d v a n c ed  r e a d i ng  c om p re h e n s ion s k i ll s  such a s l o g i c a l  r e a s o n i n g , s u m mari z ati on , a n d ar i th m etic  o p e ration s . U n f o r t u n at e l y , m o s t e x i s t in g M CQA  d a ta s et s a r e  s m al l i n s i z e , wh i c h  i nc re a s e s  t h e d i f f ic u l t y  o f  m o de l le a rn i n g  a nd  gen er a l iz a ti on . T o a dd re s s  t his c hal l eng e, w e  p r o p o s e a  m u l t i -s o u rc e  me ta t r ansf e r  (M M T) f o r l o w -r e so u rce  M C Q A . In th i s fra m e w o rk , we  f i r st  e x t e nd  m e ta lea r n i n g b y  i ncor p o r a t in g  m u l t ip l e  train i n g  s ou r c es  t o  lea rn a g e n er a l i ze d f e a t u re r e p r es entat io n acr o s s  do m a i n s . To  bri dg e  t he di s t ribu t i o n  g a p be t w e e n  t r a i ning  s o u r c es  a n d  th e ta rg e t, w e f urthe r  i n t r od u c e  t he  m e t a t ra n s f e r  t h at  c a n  be  in t egrat e d  int o t h e  m u l t i-s ou r c e m e t a  t ra i n i ng . Mo re  i m po r t a n t l y , th e p r o po s ed  MM T  i s in d e p e n de n t  of bac kbon e  l an g u a g e  m odel s . E xt e n s i v e  ex p er im e n t s  dem on s t ra t e  t h e  s u per iorit y  of M M T ov e r  s t a t e -of-t h e-a r ts , a n d  c o n t inu ou s  im p r o veme n ts  c a n  b e a c hi e v ed on  d i f f e ren t  b a c k b o ne  ne t work s  o n bo t h  supe r v i s e d  a n d un s u p e rv i se d  dom a i n  ad a p t a t io n s e t ti n g s .",
+                    "Does this review explore how AI methodologies, such as machine learning and neural networks, enhance flavor profiling, personalized scent creation, and the diagnosis of sensory disorders?"
+                ]
+            ],
+            "followup_outputs": [
+                "unknown"
+            ],
+            "relations": [
+                true
+            ],
+            "verif_failure": null
+        },
+        {
+            "id": 1,
+            "source_input": [
+                "Multiple-choice question answering (MCQA) is one of the most challenging tasks in machine reading comprehension since it requires more advanced reading comprehension skills such as logical reasoning, summarization, and arithmetic operations. Unfortunately, most existing MCQA datasets are small in size, which increases the difficulty of model learning and generalization. To address this challenge, we propose a multi-source meta transfer (MMT) for low-resource MCQA. In this framework, we first extend meta learning by incorporating multiple training sources to learn a generalized feature representation across domains. To bridge the distribution gap between training sources and the target, we further introduce the meta transfer that can be integrated into the multi-source meta training. More importantly, the proposed MMT is independent of backbone language models. Extensive experiments demonstrate the superiority of MMT over state-of-the-arts, and continuous improvements can be achieved on different backbone networks on both supervised and unsupervised domain adaptation settings.",
+                "According to the experimental results, is the MMT framework strictly limited to a single specific language model, and does it fail completely under unsupervised domain adaptation settings?"
+            ],
+            "source_output": "No, the MMT framework is independent of backbone language models and demonstrates continuous improvements on different networks, including those used in unsupervised domain adaptation settings.",
+            "followup_inputs": [
+                [
+                    "M u l ti pl e -cho ic e q ues t i o n  a n swe r i n g (M CQ A) i s o n e o f  t he m o s t ch a l l e n gin g  t a s k s  i n  m ac h in e  r e a d i n g  c o m pr eh e n sio n  si n c e it r e qu i re s  mo re adv a n c e d  r e a d i ng  c o m prehe n si o n s kil l s s uc h  as  l o g i cal  r e a so n i n g , s u m ma r iz a ti o n, an d a r it h me ti c  o p e r atio n s . U n fo r t u n atel y , mo s t  e x i s t i n g  M C Q A  d a t a s e t s  a re  s m a l l  i n  si z e , w h i c h  in c r e a ses  t h e  d i f f i c u l t y  o f  m o del  le a rni n g a n d  g e n e r a li z at i o n . To  ad d r es s  t his  c ha l l e n g e , w e  p ro po s e  a mu l ti-s ou r c e  m et a  tr an s f er  (M M T) fo r lo w-r e s o ur ce  M C Q A . In  th i s fr a m e wo r k, w e fi r st  ex te n d  met a  le a r n i n g  b y i n c or p o rat i ng  m ul t i p l e  t rai n in g  s ou r ces  to  l e arn  a  g e n e r a l i z e d  f e a ture  r e p re s e n t at i o n  a cr o s s d oma ins . T o  br i dg e  the  d i s t r ib ut i o n  g a p b et w e e n t rai n ing s o u r ce s  an d th e  t a r g e t, w e  f u rt he r  i n tr o du c e  th e m e ta  tra n s fer  tha t ca n  b e  i nte gr a t ed  i n t o  th e m u lti-s our c e  m e t a t r a ini ng . M o r e  i m po rtan t l y , th e p r o p o se d  MMT  i s  i nde pe nd e nt  o f  b ac kb o n e  l a nguage  m od el s. E xt e n s ive ex p er ime nts de m o n s t r a t e  t h e  s u pe ri o r i ty o f M M T  ov e r  s ta t e -of -the -a r t s, and  c on t i nuo u s i mp r o v e m e nts  ca n  be  a c h i ev ed  o n  di f f er en t  b a c kb o n e  n e t wor k s on  b o t h  s up e rv ise d  a nd u nsu per v i s ed do m a in  a d a p ta ti o n  se t t in gs.",
+                    "According to the experimental results, is the MMT framework strictly limited to a single specific language model, and does it fail completely under unsupervised domain adaptation settings?"
+                ]
+            ],
+            "followup_outputs": [
+                "The MMT framework is independent of backbone language models and continues to show superiority, including improvements in supervised and unsupervised domain adaptation settings."
+            ],
+            "relations": [
+                true
+            ],
+            "verif_failure": null
+        },
+        {
+            "id": 2,
+            "source_input": [
+                "We propose approaches to Quality Estimation (QE) for Machine Translation that explore both text and visual modalities for Multimodal QE. We compare various multimodality integration and fusion strategies. For both sentence-level and document-level predictions, we show that state-of-the-art neural and feature-based QE frameworks obtain better results when using the additional modality.",
+                "Does this paper propose Multimodal Quality Estimation (QE) approaches for machine translation that compare different text and visual fusion strategies to improve both sentence-level and document-level predictions?"
+            ],
+            "source_output": "Yes, this paper proposes Multimodal QE approaches that compare different text and visual fusion strategies to improve both sentence-level and document-level predictions.",
+            "followup_inputs": [
+                [
+                    "W e pr o p o s e  a p p r o a c h e s  to  Qua l i ty  E s ti m a t i on  (Q E ) fo r Ma ch in e  Tra n s l a ti o n  th a t  exp lor e  b ot h t e xt  an d  vi s ual m od a li tie s f or  M ul ti m od al Q E . W e  c o m p ar e  v ar i ou s mu l t i m o d a l i t y  in te g rat i o n  and f u s ion  s t r a t e g ie s . F or  b ot h  s en t en c e -l e v e l and  d o c u m en t -le v e l  p r e d i cti on s , we sho w  t h a t s t a te-o f -th e -a r t  n e u r a l and  fe a t u r e -ba s e d  QE  fra mew o r ks o b tain  b e t t e r r e s u l t s  w h e n  u sing  t he ad di t i o n al  m o d a li t y .",
+                    "Does this paper propose Multimodal Quality Estimation (QE) approaches for machine translation that compare different text and visual fusion strategies to improve both sentence-level and document-level predictions?"
+                ]
+            ],
+            "followup_outputs": [
+                "Yes, this paper proposes Multimodal Quality Estimation (QE) approaches that compare various text and visual fusion strategies to improve both sentence-level and document-level predictions."
+            ],
+            "relations": [
+                true
+            ],
+            "verif_failure": null
+        },
+        {
+            "id": 3,
+            "source_input": [
+                "We propose approaches to Quality Estimation (QE) for Machine Translation that explore both text and visual modalities for Multimodal QE. We compare various multimodality integration and fusion strategies. For both sentence-level and document-level predictions, we show that state-of-the-art neural and feature-based QE frameworks obtain better results when using the additional modality.",
+                "According to the text, do neural and feature-based QE frameworks perform significantly worse when using an additional visual modality, showing that predictions should remain purely text-based?"
+            ],
+            "source_output": "No, the text indicates the opposite: neural and feature-based QE frameworks obtain better results with the additional modality.",
+            "followup_inputs": [
+                [
+                    "We  pr o p ose  a p p r o a c hes  t o  Q u alit y  E s t ima t i on  (QE ) f o r M a ch i n e  T ra n s l a t i o n  th a t e x plo re b o t h te x t  a n d  v is u a l  m o da li ti e s  for  M u lti m o d a l  QE . W e  c o m pare v a r io u s m u lt i m o da l i t y  i n t e g rat i o n  an d  fu s i o n s t r ate g i e s . F o r b ot h  s e nte nce -l e v e l  a n d  d o c u me nt -l e v e l pr e d ic t i on s , w e  show  t h a t s t a t e -of -t h e-ar t  neur a l a nd  f eatu re-b a sed  QE f r am e w o rks o bt a i n b e t te r  r e s ult s  wh e n  usi ng t h e ad di t i o na l m o d a l i t y .",
+                    "According to the text, do neural and feature-based QE frameworks perform significantly worse when using an additional visual modality, showing that predictions should remain purely text-based?"
+                ]
+            ],
+            "followup_outputs": [
+                "No, the text states that neural and feature-based QE frameworks obtain better results when using an additional modality."
+            ],
+            "relations": [
+                true
+            ],
+            "verif_failure": null
+        },
+        {
+            "id": 4,
+            "source_input": [
+                "While automated essay scoring (AES) can reliably grade essays at scale, automated writing evaluation (AWE) additionally provides formative feedback to guide essay revision. However, a neural AES typically does not provide useful feature representations for supporting AWE. This paper presents a method for linking AWE and neural AES, by extracting Topical Components (TCs) representing evidence from a source text using the intermediate output of attention layers. We evaluate performance using a feature-based AES requiring TCs. Results show that performance is comparable whether using automatically or manually constructed TCs for 1) representing essays as rubric-based features, 2) grading essays.",
+                "Does this paper present a method to link AWE and neural AES by extracting Topical Components (TCs) from the intermediate output of attention layers, and evaluate it using a feature-based AES model?"
+            ],
+            "source_output": "Yes, this paper presents a method for linking AWE and neural AES by extracting Topical Components (TCs) from attention layers and evaluating it using a feature-based AES model.",
+            "followup_inputs": [
+                [
+                    "W hi le au t o m a ted  e ssa y  s co r in g (A E S) c an r el i a bl y  g r a d e es s ays  a t  s cal e , a ut om a ted w r i t i ng  e v a lu a t io n  (A WE ) add i ti o n a l l y  p ro v i de s for m a t i v e  feed b a c k  to gu i d e  e s say  r evi sion. H o w e ve r , a  ne u r al  A ES t y p i c a lly  d o e s  n ot  pr ov id e  u s e fu l f e a tur e r e p r es e n t at ion s f o r  su p po r ti n g  A W E . Th i s pa p er  p r e s e n ts  a  m et h o d fo r  l in k i ng  A W E  a nd n e u ral  A E S , by  e x t ra cti ng  T o pi c a l  C o m po nen t s  (TC s) r e p r e s e n t i n g  ev i de n c e  f ro m  a  s ou r c e te x t  u s i n g th e  i n t e r me di a te  o u tpu t  o f a tt en t i on l a y er s. W e e v a l u a t e  pe rfo rm a nc e  u s i ng  a  f e at u r e-ba sed  AE S  r e q u i r i ng TC s . R e su l ts  s h ow t h a t  p erf o r m an ce is  c om p a r a b le  wh e t her  u s i n g  a u to m at ic a l ly  o r m a n u al l y  c on s t r u c t e d  T Cs for 1) re p re s e n ti n g e s s a ys  a s  r ubr i c -b a s e d f e a tu r es, 2) gra d i n g  e ss ay s .",
+                    "Does this paper present a method to link AWE and neural AES by extracting Topical Components (TCs) from the intermediate output of attention layers, and evaluate it using a feature-based AES model?"
+                ]
+            ],
+            "followup_outputs": [
+                "Yes, this paper presents a method for linking AWE and neural AES by extracting TCs from attention layers and evaluating it using a feature-based AES model."
+            ],
+            "relations": [
+                true
+            ],
+            "verif_failure": null
+        },
+        {
+            "id": 5,
+            "source_input": [
+                "While automated essay scoring (AES) can reliably grade essays at scale, automated writing evaluation (AWE) additionally provides formative feedback to guide essay revision. However, a neural AES typically does not provide useful feature representations for supporting AWE. This paper presents a method for linking AWE and neural AES, by extracting Topical Components (TCs) representing evidence from a source text using the intermediate output of attention layers. We evaluate performance using a feature-based AES requiring TCs. Results show that performance is comparable whether using automatically or manually constructed TCs for 1) representing essays as rubric-based features, 2) grading essays.",
+                "Did the evaluation show that automatically extracted Topical Components perform significantly worse than manual ones, making it completely impossible to use them for grading essays or representing rubric-based features?"
+            ],
+            "source_output": "No, the results showed that automatically or manually constructed Topical Components performed comparably for representing essays as rubric-based features and grading essays.",
+            "followup_inputs": [
+                [
+                    "Wh ile  auto m a t e d  e s s ay s c o ri n g  (A E S) ca n  reli ab ly g r ade es s ay s a t s c a l e , au t o m at e d  w r i t i n g  e v a l u at i on  (A WE ) a d d itionall y  p ro vid e s  f orm ati ve  f eedb a c k  t o  g u i de e s say  r e v i s io n . H ow e v er , a n e u r a l  AES  t yp ic a l l y  d o e s  n o t  pr ov i d e  u s e f u l  fe a tu re  r epre se n t a t i o n s  f o r  sup po r ting A WE. Th i s  p a p e r p r e s e n t s  a  m e t ho d fo r  l i n k i n g AW E a n d  n e ura l  A E S , by e x t r a c t in g  To p i cal  C o m po ne n t s  (T C s ) r e p r e s e n ti n g  e vi d e nc e  fr o m  a  s our c e  t ex t  u si n g  th e i n t e r me d i a te ou tp u t  o f a t t e n t ion  l ay ers. W e e v al ua t e  pe r fo r m a n c e  u s i n g  a  f eat u r e -b a s ed  A E S  r e q uir in g  T C s . R e s u l t s sho w t ha t  p e r fo r m an c e i s c o mpa r a b l e  whe t he r u s in g  a u t omat ic all y or  ma nu a l l y  c o n stru ct e d TCs fo r  1) r ep res en t i n g  es s a ys  a s r u b r i c-b a sed  f e a t u r e s, 2) g ra d in g ess a y s.",
+                    "Did the evaluation show that automatically extracted Topical Components perform significantly worse than manual ones, making it completely impossible to use them for grading essays or representing rubric-based features?"
+                ]
+            ],
+            "followup_outputs": [
+                "No, the results showed that performance was comparable whether automatically or manually constructed Topical Components were used for grading essays or representing rubric-based features."
+            ],
+            "relations": [
+                true
+            ],
+            "verif_failure": null
+        },
+        {
+            "id": 6,
+            "source_input": [
+                "Writing a good job posting is a critical step in the recruiting process, but the task is often more difficult than many people think. It is challenging to specify the level of education, experience, relevant skills per the company information and job description. To this end, we propose a novel task of Job Posting Generation (JPG) which is cast as a conditional text generation problem to generate job requirements according to the job descriptions. To deal with this task, we devise a data-driven global Skill-Aware Multi-Attention generation model, named SAMA. Specifically, to model the complex mapping relationships between input and output, we design a hierarchical decoder that we first label the job description with multiple skills, then we generate a complete text guided by the skill labels. At the same time, to exploit the prior knowledge about the skills, we further construct a skill knowledge graph to capture the global prior knowledge of skills and refine the generated results. The proposed approach is evaluated on real-world job posting data. Experimental results clearly demonstrate the effectiveness of the proposed method.",
+                "Does the study use SAMA to model the complex mapping relationships between input and output?"
+            ],
+            "source_output": "Yes, the study uses SAMA to model the complex mapping relationships between input and output.",
+            "followup_inputs": [
+                [
+                    "Wri t i ng  a g o od  j o b  p o s ting  i s  a cri t ical  st ep i n  t h e  r e c r u i t i n g p ro ce s s, b u t  t h e t as k  i s  o ft e n m or e  d if f ic u l t  tha n m a n y p e op le t hin k. I t  is cha l l e n g i n g t o  sp ec i f y the l e v e l  o f  ed uca t io n, e x p e r i e n ce, r e l e va n t  s k i l l s  per  th e  c o m p any i n f o r m a t i o n  a n d j o b  des c r i p ti on . T o thi s  e n d , w e  p r o p ose a  n o v el  ta s k  of  J o b  Po s t i n g  G ener a t i on (J P G) w h ich  i s c as t  as  a  c o n d it i o n a l  t ex t ge n er at i o n  p r o blem  t o  g e ne rate  j o b  r e q u i re m e n t s a cco rd i ng  to  th e j ob  de s c ript i o n s . To  de a l  wi t h  t hi s  t a s k , we  d e v i s e a  d a ta-d r i ve n  g l oba l  Skil l-A w a r e  M u l t i -A tt e n t i o n  ge ne r atio n  mode l, n a m e d  S A M A . S peci f i c a l ly , to  m od e l t h e c o m pl ex  m a p p in g  r el a t i o nsh i p s b et we e n  i n put a n d o u t p ut , we d e s i g n  a  h i e r ar ch i c a l  d e c o de r  t h a t w e fi r s t l a be l  th e  j ob  de s cri p t i o n w i th mu l t ipl e  s ki l l s , t h e n  we g en e r a t e a  co mp l e te te x t gu i d e d  b y  the  s ki ll  lab el s . A t  th e  s a me  t im e, to  ex p l o i t  t h e  p r i or k n o wl e d g e  a bo u t  t h e s k i l l s , w e furt h e r  c o n s t ruc t a sk il l  k n o w l e d ge g r a p h  to  c apt ur e  th e  g lob a l  prior  k n o w led ge  o f  s k i ll s  a nd  ref in e th e  g e ne r a ted  r esu l t s . Th e  pr o p o sed  a p pro ac h i s e v a l ua t e d  o n r e a l-w o rl d  j ob p ost in g  d a t a . E x p e r i m enta l  res u l t s  c le ar l y  d em o ns t ra t e  t h e  eff e c t iv enes s  o f  t h e  pr o p os e d  m e thod.",
+                    "Does the study use SAMA to model the complex mapping relationships between input and output?"
+                ]
+            ],
+            "followup_outputs": [
+                "Yes, the study uses SAMA to model the complex mapping relationships between input and output."
+            ],
+            "relations": [
+                true
+            ],
+            "verif_failure": null
+        },
+        {
+            "id": 7,
+            "source_input": [
+                "Writing a good job posting is a critical step in the recruiting process, but the task is often more difficult than many people think. It is challenging to specify the level of education, experience, relevant skills per the company information and job description. To this end, we propose a novel task of Job Posting Generation (JPG) which is cast as a conditional text generation problem to generate job requirements according to the job descriptions. To deal with this task, we devise a data-driven global Skill-Aware Multi-Attention generation model, named SAMA. Specifically, to model the complex mapping relationships between input and output, we design a hierarchical decoder that we first label the job description with multiple skills, then we generate a complete text guided by the skill labels. At the same time, to exploit the prior knowledge about the skills, we further construct a skill knowledge graph to capture the global prior knowledge of skills and refine the generated results. The proposed approach is evaluated on real-world job posting data. Experimental results clearly demonstrate the effectiveness of the proposed method.",
+                "Did they evaluate the model using only virtual or simulated jobs?"
+            ],
+            "source_output": "The model was evaluated on real-world job posting data.",
+            "followup_inputs": [
+                [
+                    "W r i ti n g  a  g o o d jo b p o st in g i s  a c ri t i c a l  s t e p  i n t h e r e c r ui ti ng  p r o ces s, b u t  th e  tas k  is  o f t en  m o r e  d iff i c u l t  t ha n m an y  p eo p l e th i nk . I t  i s  cha l l e n g i ng  t o s p e ci f y t h e  l ev e l  of  e d u c a tio n, e xp e rie n ce , r e l e van t  s k i l ls pe r  t h e c omp an y  i nf o rmat i o n  a n d  j o b  d es cri p t io n . T o t h is e n d, w e  p rop o s e  a  nov el  ta s k o f Jo b  P osti n g  G en e r a tio n  (JP G ) w h i ch  i s  cast  a s  a c o n di t io n al  te x t g e n e r at ion  pr o b l e m t o gen e r a te  jo b  r e q u i r em e n t s  ac co rd i n g  t o t he  job  d es c rip t i o n s . T o dea l  w it h t h is  t a s k , w e de vi s e  a d a t a-d r i ve n  g l o b a l S ki ll -Aw a r e  Mul t i-At te nt i o n  g en e r at ion mo d e l, n ame d  S AM A . S p e c i f i c a l l y , t o  m odel t he  com pl e x  m a ppin g r el a t i o n sh i p s  be t w een in p u t  a n d  ou t p u t , we  d e s i gn a h i e rar c h i ca l  d e c od e r t h a t w e  f i r st  l a b el  th e  j o b  de sc ri p ti o n  w i t h  m u lt i pl e  sk i l ls , th e n  w e gen er at e  a  c o m p l e te t ex t g u i d ed  b y  t h e sk i l l l a b e ls . A t t he  s a me t i me , t o e x p loi t t h e  prio r k n o w le d g e  a b o u t  th e  ski l l s , w e  f u rt he r c o n str u c t  a  s k i l l  k n o w l e d g e g ra p h  t o  ca p t u r e  t h e  gl o b a l pri o r  know l e dg e of s ki l l s  a n d  re f i ne th e  g e n e r at e d  r e sul t s . Th e p r o p o sed  ap p r oach  i s  e va luat e d o n r e a l -w o r l d j o b  p o s ti n g  d ata . E x pe r im e nt al r e s ul ts c l e a r l y d emo n s tra t e  the  ef fe ct ive n e ss o f  t he p ro pos e d  me t h o d .",
+                    "Did they evaluate the model using only virtual or simulated jobs?"
+                ]
+            ],
+            "followup_outputs": [
+                "The proposed approach was evaluated on real-world job posting data."
+            ],
+            "relations": [
+                true
+            ],
+            "verif_failure": null
+        },
+        {
+            "id": 8,
+            "source_input": [
+                "Transformers have gradually become a key component for many state-of-the-art natural language representation models. A recent Transformer based model- BERTachieved state-of-the-art results on various natural language processing tasks, including GLUE, SQuAD v1.1, and SQuAD v2.0. This model however is computationally prohibitive and has a huge number of parameters. In this work we revisit the architecture choices of BERT in efforts to obtain a lighter model. We focus on reducing the number of parameters yet our methods can be applied towards other objectives such FLOPs or latency. We show that much efficient light BERT models can be obtained by reducing algorithmically chosen correct architecture design dimensions rather than reducing the number of Transformer encoder layers. In particular, our schuBERT gives 6.6% higher average accuracy on GLUE and SQuAD datasets as compared to BERT with three encoder layers while having the same number of parameters.",
+                "Does this paper introduce schuBERT, a lighter variant of BERT that reduces parameters by algorithmically choosing architectural design dimensions rather than simply cutting down the number of Transformer encoder layers?"
+            ],
+            "source_output": "Yes, this paper introduces schuBERT, a lighter variant of BERT that reduces parameters by algorithmically choosing architectural design dimensions rather than simply cutting down the number of Transformer encoder layers.",
+            "followup_inputs": [
+                [
+                    "T r ansf o rm e r s h a ve  g r ad u a l ly  b e c o me  a  key  c o m p o n e nt  f o r  m an y  s ta t e -of -th e -a r t  n a t ural  la ng u a g e  r e pr e s e n t a t i on  m o d e l s . A re c e n t  T r a nsf or m e r  base d  m o d e l- B ERTa c h i e v e d s t a te -o f -t he-a r t  r e s u lt s  o n v a r iou s n a tu r a l  l a n g u a g e p r ocess in g  t as k s , i nc l u d i n g  G LU E , S Q uA D v 1.1, an d  S Qu AD  v 2.0. Th i s  mo del  how e v er  i s  co m p u ta t i o n a ll y prohib i t i v e an d  ha s a  h u g e  n um ber  o f  p a ra m et e rs . I n t h is  wo r k  w e  r ev i s i t t he  a r ch i t e c t u r e c h o ice s  o f  B E R T  in e f fo r ts  t o  obt a in  a  l i g h t e r mod e l . We  focu s  on r e du ci n g  t h e  nu mber  o f  p a rame t er s y et  o ur  m e t ho d s  ca n  b e  ap p l i ed t o w ar ds  ot her o b j e ct iv es  s u c h F LO Ps  o r  l a t e n c y . We  sh o w  t hat m u c h e ff i c i ent  l i g h t B E RT  mode ls c an be  ob ta i ne d  by r ed u c i n g a l g or i t hm i c a lly  c h o se n  c o r rec t  a r c hi tec t u r e  d e s i g n  d i m en sion s r a t h e r th an  r ed u c i ng t h e n u m ber of  T r an s f or me r  en cod er  l a yers. In p a r t ic u l a r , ou r  s c h u BE R T  g i v es 6.6% h i gh e r  average  acc u ra cy  o n  G L U E  an d  S Qu A D  d a t ase ts  a s  c o mpa r e d  t o  B E R T  w i t h t h r e e en c o d e r  la ye r s  w h i l e h a vi ng  th e  s a me  num b er  of  p a r a m et e rs.",
+                    "Does this paper introduce schuBERT, a lighter variant of BERT that reduces parameters by algorithmically choosing architectural design dimensions rather than simply cutting down the number of Transformer encoder layers?"
+                ]
+            ],
+            "followup_outputs": [
+                "Yes, this paper introduces schuBERT, a lighter variant of BERT that reduces parameters by algorithmically choosing architectural design dimensions rather than simply cutting down the number of Transformer encoder layers."
+            ],
+            "relations": [
+                true
+            ],
+            "verif_failure": null
+        },
+        {
+            "id": 9,
+            "source_input": [
+                "Transformers have gradually become a key component for many state-of-the-art natural language representation models. A recent Transformer based model- BERTachieved state-of-the-art results on various natural language processing tasks, including GLUE, SQuAD v1.1, and SQuAD v2.0. This model however is computationally prohibitive and has a huge number of parameters. In this work we revisit the architecture choices of BERT in efforts to obtain a lighter model. We focus on reducing the number of parameters yet our methods can be applied towards other objectives such FLOPs or latency. We show that much efficient light BERT models can be obtained by reducing algorithmically chosen correct architecture design dimensions rather than reducing the number of Transformer encoder layers. In particular, our schuBERT gives 6.6% higher average accuracy on GLUE and SQuAD datasets as compared to BERT with three encoder layers while having the same number of parameters.",
+                "Does the author state that schuBERT results in a 6.6% lower average accuracy on GLUE and SQuAD benchmarks compared to a three-layer BERT model, proving that dimension reduction fails?"
+            ],
+            "source_output": "No, the author states that schuBERT achieves 6.6% higher average accuracy compared to BERT with three encoder layers.",
+            "followup_inputs": [
+                [
+                    "T r ans f o r m e r s hav e gra d u al l y  b e c o m e  a  k e y co mp on ent fo r  m a n y  s t a t e -o f -t h e -art  na t u ral  l a ngua ge  re p r es e nt at i o n  m odels. A  r e c e n t  T rans for m er ba se d m o del - B ER T a c h i e ve d  s t at e -o f-t he -a rt  re s u l ts on  v a ri ou s  n a tu r a l  l an guag e p r o c e ssi n g  t a s ks , in clud i n g  GLU E , S Qu A D  v 1.1, an d  SQ uA D  v 2.0. T h i s  m o d e l h ow eve r i s  c om p ut at i o n a lly  p r o hib i t i v e and h a s  a  huge  n um be r o f p ar am et er s. In  t h i s  w or k  w e  r e v i si t t h e  ar c hite c t ur e  c h o ice s  o f B E R T  i n  eff o r t s t o  o b t a in a  l ig h t e r  mo de l . We  f oc u s  o n r e du ci ng  t h e  nu m b er  of pa r amet ers  y et  o ur  m e t h o d s  ca n  b e  a p pl ie d t owa rd s oth er o b j e ct i ve s  s u ch  F L O P s o r  la t e nc y. W e s h o w  t h a t  m u ch e ffi c i e n t  li ght BER T m o d el s  c a n  be  o b ta i n e d  by r e du c in g a l g o r i t h m i ca ll y  c h o s e n  c or r ec t  a r c h i te c t ure d e s ig n  d i m ension s r a t h e r t h a n  re d u ci ng  t h e  num b e r  o f  T r a n s f orme r  e n c ode r  la y ers . I n  pa r t i c ul a r , o u r  schu B E R T  gi ve s  6.6% hi gh e r  av e ra g e  a cc u r a c y  o n  GL UE a n d  S Qu A D d at a se t s  a s  c om pa r e d  t o  B E RT  wi t h t h r e e  en co d e r  l a y e r s  w h il e  h a v ing  t h e s a m e  n um b er o f  p a r a m e t er s .",
+                    "Does the author state that schuBERT results in a 6.6% lower average accuracy on GLUE and SQuAD benchmarks compared to a three-layer BERT model, proving that dimension reduction fails?"
+                ]
+            ],
+            "followup_outputs": [
+                "No, the author states that schuBERT gives 6.6% higher average accuracy on GLUE and SQuAD datasets compared to BERT with three encoder layers."
+            ],
+            "relations": [
+                true
+            ],
+            "verif_failure": null
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+[
+    "unknown",
+    "No, the MMT framework is independent of backbone language models and demonstrates continuous improvements on different networks, including those used in unsupervised domain adaptation settings.",
+    "Yes, this paper proposes Multimodal QE approaches that compare different text and visual fusion strategies to improve both sentence-level and document-level predictions.",
+    "No, the text indicates the opposite: neural and feature-based QE frameworks obtain better results with the additional modality.",
+    "Yes, this paper presents a method for linking AWE and neural AES by extracting Topical Components (TCs) from attention layers and evaluating it using a feature-based AES model.",
+    "No, the results showed that automatically or manually constructed Topical Components performed comparably for representing essays as rubric-based features and grading essays.",
+    "Yes, the study uses SAMA to model the complex mapping relationships between input and output.",
+    "The model was evaluated on real-world job posting data.",
+    "Yes, this paper introduces schuBERT, a lighter variant of BERT that reduces parameters by algorithmically choosing architectural design dimensions rather than simply cutting down the number of Transformer encoder layers.",
+    "No, the author states that schuBERT achieves 6.6% higher average accuracy compared to BERT with three encoder layers."
+]

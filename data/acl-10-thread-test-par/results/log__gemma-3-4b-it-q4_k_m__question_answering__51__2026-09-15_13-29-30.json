@@ -1,0 +1,337 @@
+{
+    "llm_name": "gemma-3-4b-it-q4_k_m",
+    "task_name": "question_answering",
+    "relation_name": "51",
+    "data": [
+        {
+            "id": 0,
+            "source_input": [
+                "Multiple-choice question answering (MCQA) is one of the most challenging tasks in machine reading comprehension since it requires more advanced reading comprehension skills such as logical reasoning, summarization, and arithmetic operations. Unfortunately, most existing MCQA datasets are small in size, which increases the difficulty of model learning and generalization. To address this challenge, we propose a multi-source meta transfer (MMT) for low-resource MCQA. In this framework, we first extend meta learning by incorporating multiple training sources to learn a generalized feature representation across domains. To bridge the distribution gap between training sources and the target, we further introduce the meta transfer that can be integrated into the multi-source meta training. More importantly, the proposed MMT is independent of backbone language models. Extensive experiments demonstrate the superiority of MMT over state-of-the-arts, and continuous improvements can be achieved on different backbone networks on both supervised and unsupervised domain adaptation settings.",
+                "Does this review explore how AI methodologies, such as machine learning and neural networks, enhance flavor profiling, personalized scent creation, and the diagnosis of sensory disorders?"
+            ],
+            "source_output": "unknown",
+            "followup_inputs": [
+                [
+                    "This research addresses the difficulty of multiple-choice question answering (MCQA) \u2013 a complex task needing strong reasoning, summarization, and arithmetic skills \u2013 due to limited, small datasets. The solution is a multi-source meta transfer (MMT) framework, which learns generalized features from various sources and adapts to new domains. This independent approach outperforms existing methods and allows for continuous improvements across different language models and training scenarios.",
+                    "Does this review explore how AI methodologies, such as machine learning and neural networks, enhance flavor profiling, personalized scent creation, and the diagnosis of sensory disorders?"
+                ],
+                [
+                    "Multiple-choice question answering (MCQA) is one of the most challenging tasks in machine reading comprehension since it requires more advanced reading comprehension skills such as logical reasoning, summarization, and arithmetic operations. Unfortunately, most existing MCQA datasets are small in size, which increases the difficulty of model learning and generalization. To address this challenge, we propose a multi-source meta transfer (MMT) for low-resource MCQA. In this framework, we first extend meta learning by incorporating multiple training sources to learn a generalized feature representation across domains. To bridge the distribution gap between training sources and the target, we further introduce the meta transfer that can be integrated into the multi-source meta training. More importantly, the proposed MMT is independent of backbone language models. Extensive experiments demonstrate the superiority of MMT over state-of-the-arts, and continuous improvements can be achieved on different backbone networks on both supervised and unsupervised domain adaptation settings.",
+                    "Does this review examine how AI techniques like machine learning and neural networks improve flavor analysis, custom scent development, and the identification of sensory impairments?"
+                ],
+                [
+                    "This research addresses the difficulty of multiple-choice question answering (MCQA) \u2013 a complex task needing strong reasoning, summarization, and arithmetic skills \u2013 due to limited, small datasets. The solution is a multi-source meta transfer (MMT) framework, which learns generalized features from various sources and adapts to new domains. This independent approach outperforms existing methods and allows for continuous improvements across different language models and training scenarios.",
+                    "Does this review examine how AI techniques like machine learning and neural networks improve flavor analysis, custom scent development, and the identification of sensory impairments?"
+                ]
+            ],
+            "followup_outputs": [
+                "unknown",
+                "unknown",
+                "unknown"
+            ],
+            "relations": [
+                true,
+                true,
+                true
+            ],
+            "verif_failure": null
+        },
+        {
+            "id": 1,
+            "source_input": [
+                "Multiple-choice question answering (MCQA) is one of the most challenging tasks in machine reading comprehension since it requires more advanced reading comprehension skills such as logical reasoning, summarization, and arithmetic operations. Unfortunately, most existing MCQA datasets are small in size, which increases the difficulty of model learning and generalization. To address this challenge, we propose a multi-source meta transfer (MMT) for low-resource MCQA. In this framework, we first extend meta learning by incorporating multiple training sources to learn a generalized feature representation across domains. To bridge the distribution gap between training sources and the target, we further introduce the meta transfer that can be integrated into the multi-source meta training. More importantly, the proposed MMT is independent of backbone language models. Extensive experiments demonstrate the superiority of MMT over state-of-the-arts, and continuous improvements can be achieved on different backbone networks on both supervised and unsupervised domain adaptation settings.",
+                "According to the experimental results, is the MMT framework strictly limited to a single specific language model, and does it fail completely under unsupervised domain adaptation settings?"
+            ],
+            "source_output": "No, the MMT framework is independent of backbone language models and demonstrates continuous improvements on different networks, including those used in unsupervised domain adaptation settings.",
+            "followup_inputs": [
+                [
+                    "This research addresses the difficulty of multiple-choice question answering (MCQA) \u2013 a complex task demanding advanced reading comprehension skills like reasoning, summarization, and math. Current, limited MCQA datasets hinder model learning. To solve this, we propose a \u201cmulti-source meta transfer\u201d (MMT) framework. This framework uses multiple training sources to create a general feature representation and incorporates meta transfer to bridge the gap between these sources and the target question. Importantly, MMT works independently of the underlying language model. Experiments show it outperforms existing methods, and further improvements are possible across various language models and training scenarios.",
+                    "According to the experimental results, is the MMT framework strictly limited to a single specific language model, and does it fail completely under unsupervised domain adaptation settings?"
+                ],
+                [
+                    "Multiple-choice question answering (MCQA) is one of the most challenging tasks in machine reading comprehension since it requires more advanced reading comprehension skills such as logical reasoning, summarization, and arithmetic operations. Unfortunately, most existing MCQA datasets are small in size, which increases the difficulty of model learning and generalization. To address this challenge, we propose a multi-source meta transfer (MMT) for low-resource MCQA. In this framework, we first extend meta learning by incorporating multiple training sources to learn a generalized feature representation across domains. To bridge the distribution gap between training sources and the target, we further introduce the meta transfer that can be integrated into the multi-source meta training. More importantly, the proposed MMT is independent of backbone language models. Extensive experiments demonstrate the superiority of MMT over state-of-the-arts, and continuous improvements can be achieved on different backbone networks on both supervised and unsupervised domain adaptation settings.",
+                    "Do the experimental results show that the MMT framework only works with one language model and doesn't perform well in unsupervised domain adaptation?"
+                ],
+                [
+                    "This research addresses the difficulty of multiple-choice question answering (MCQA) \u2013 a complex task demanding advanced reading comprehension skills like reasoning, summarization, and math. Current, limited MCQA datasets hinder model learning. To solve this, we propose a \u201cmulti-source meta transfer\u201d (MMT) framework. This framework uses multiple training sources to create a general feature representation and incorporates meta transfer to bridge the gap between these sources and the target question. Importantly, MMT works independently of the underlying language model. Experiments show it outperforms existing methods, and further improvements are possible across various language models and training scenarios.",
+                    "Do the experimental results show that the MMT framework only works with one language model and doesn't perform well in unsupervised domain adaptation?"
+                ]
+            ],
+            "followup_outputs": [
+                "The MMT framework works independently of the underlying language model and shows further potential improvements across various language models and training scenarios, suggesting it doesn\u2019t fail completely under unsupervised domain adaptation settings.",
+                "No, the experimental results demonstrate that the MMT framework achieves superiority and continuous improvements across different backbone networks, including in unsupervised domain adaptation settings.",
+                "The experimental results show the MMT framework outperforms existing methods across various language models and training scenarios, suggesting it doesn\u2019t solely rely on one and doesn\u2019t perform poorly in unsupervised domain adaptation."
+            ],
+            "relations": [
+                true,
+                true,
+                true
+            ],
+            "verif_failure": null
+        },
+        {
+            "id": 2,
+            "source_input": [
+                "We propose approaches to Quality Estimation (QE) for Machine Translation that explore both text and visual modalities for Multimodal QE. We compare various multimodality integration and fusion strategies. For both sentence-level and document-level predictions, we show that state-of-the-art neural and feature-based QE frameworks obtain better results when using the additional modality.",
+                "Does this paper propose Multimodal Quality Estimation (QE) approaches for machine translation that compare different text and visual fusion strategies to improve both sentence-level and document-level predictions?"
+            ],
+            "source_output": "Yes, this paper proposes Multimodal QE approaches for machine translation that compare different text and visual fusion strategies to improve both sentence-level and document-level predictions.",
+            "followup_inputs": [
+                [
+                    "This research investigates methods for Quality Estimation (QE) in Machine Translation, examining how to combine text and visual data. We tested different ways to integrate and merge these modalities, and found that existing, advanced QE techniques perform better when utilizing both text and visual information, whether analyzing individual sentences or entire documents.",
+                    "Does this paper propose Multimodal Quality Estimation (QE) approaches for machine translation that compare different text and visual fusion strategies to improve both sentence-level and document-level predictions?"
+                ],
+                [
+                    "We propose approaches to Quality Estimation (QE) for Machine Translation that explore both text and visual modalities for Multimodal QE. We compare various multimodality integration and fusion strategies. For both sentence-level and document-level predictions, we show that state-of-the-art neural and feature-based QE frameworks obtain better results when using the additional modality.",
+                    "Does this paper explore various methods for assessing the quality of machine translation, specifically examining how combining text and visual information can enhance both individual sentence and overall document quality predictions?"
+                ],
+                [
+                    "This research investigates methods for Quality Estimation (QE) in Machine Translation, examining how to combine text and visual data. We tested different ways to integrate and merge these modalities, and found that existing, advanced QE techniques perform better when utilizing both text and visual information, whether analyzing individual sentences or entire documents.",
+                    "Does this paper explore various methods for assessing the quality of machine translation, specifically examining how combining text and visual information can enhance both individual sentence and overall document quality predictions?"
+                ]
+            ],
+            "followup_outputs": [
+                "Yes, this paper proposes Multimodal Quality Estimation (QE) approaches that compare different text and visual fusion strategies to improve both sentence-level and document-level predictions.",
+                "Yes, this paper explores various multimodality integration strategies to improve sentence-level and document-level quality estimation in machine translation by combining text and visual modalities.",
+                "Yes, this paper explores various methods for assessing the quality of machine translation, specifically examining how combining text and visual information can enhance both individual sentence and overall document quality predictions."
+            ],
+            "relations": [
+                true,
+                true,
+                true
+            ],
+            "verif_failure": null
+        },
+        {
+            "id": 3,
+            "source_input": [
+                "We propose approaches to Quality Estimation (QE) for Machine Translation that explore both text and visual modalities for Multimodal QE. We compare various multimodality integration and fusion strategies. For both sentence-level and document-level predictions, we show that state-of-the-art neural and feature-based QE frameworks obtain better results when using the additional modality.",
+                "According to the text, do neural and feature-based QE frameworks perform significantly worse when using an additional visual modality, showing that predictions should remain purely text-based?"
+            ],
+            "source_output": "No, the text indicates the opposite: neural and feature-based QE frameworks obtain better results with the additional modality.",
+            "followup_inputs": [
+                [
+                    "This research investigates methods for Quality Estimation (QE) in Machine Translation, examining how to combine text and visual information. We evaluate different ways to integrate and merge these modalities, demonstrating that current advanced QE techniques perform better when utilizing both text and visual data, whether for individual sentences or entire documents.",
+                    "According to the text, do neural and feature-based QE frameworks perform significantly worse when using an additional visual modality, showing that predictions should remain purely text-based?"
+                ],
+                [
+                    "We propose approaches to Quality Estimation (QE) for Machine Translation that explore both text and visual modalities for Multimodal QE. We compare various multimodality integration and fusion strategies. For both sentence-level and document-level predictions, we show that state-of-the-art neural and feature-based QE frameworks obtain better results when using the additional modality.",
+                    "Does adding a visual modality significantly degrade the performance of neural and feature-based QE frameworks, suggesting predictions should remain text-based?"
+                ],
+                [
+                    "This research investigates methods for Quality Estimation (QE) in Machine Translation, examining how to combine text and visual information. We evaluate different ways to integrate and merge these modalities, demonstrating that current advanced QE techniques perform better when utilizing both text and visual data, whether for individual sentences or entire documents.",
+                    "Does adding a visual modality significantly degrade the performance of neural and feature-based QE frameworks, suggesting predictions should remain text-based?"
+                ]
+            ],
+            "followup_outputs": [
+                "No, the text indicates that advanced QE techniques perform better with both text and visual data.",
+                "No, the information suggests that using the additional visual modality improves the results of these frameworks.",
+                "No, the research demonstrates that current advanced QE techniques perform better with both text and visual data."
+            ],
+            "relations": [
+                true,
+                true,
+                true
+            ],
+            "verif_failure": null
+        },
+        {
+            "id": 4,
+            "source_input": [
+                "While automated essay scoring (AES) can reliably grade essays at scale, automated writing evaluation (AWE) additionally provides formative feedback to guide essay revision. However, a neural AES typically does not provide useful feature representations for supporting AWE. This paper presents a method for linking AWE and neural AES, by extracting Topical Components (TCs) representing evidence from a source text using the intermediate output of attention layers. We evaluate performance using a feature-based AES requiring TCs. Results show that performance is comparable whether using automatically or manually constructed TCs for 1) representing essays as rubric-based features, 2) grading essays.",
+                "Does this paper present a method to link AWE and neural AES by extracting Topical Components (TCs) from the intermediate output of attention layers, and evaluate it using a feature-based AES model?"
+            ],
+            "source_output": "Yes, this paper presents a method for linking AWE and neural AES by extracting Topical Components (TCs) from attention layers and evaluates it using a feature-based AES model.",
+            "followup_inputs": [
+                [
+                    "This paper addresses the limitations of neural automated essay scoring (AES) by proposing a method to combine it with automated writing evaluation (AWE). The approach extracts key evidence components (TCs) from source texts using attention layer outputs to create a feature-based AES. Evaluations demonstrate comparable performance, regardless of whether the TCs are automatically or manually generated, for both representing essays and grading them.",
+                    "Does this paper present a method to link AWE and neural AES by extracting Topical Components (TCs) from the intermediate output of attention layers, and evaluate it using a feature-based AES model?"
+                ],
+                [
+                    "While automated essay scoring (AES) can reliably grade essays at scale, automated writing evaluation (AWE) additionally provides formative feedback to guide essay revision. However, a neural AES typically does not provide useful feature representations for supporting AWE. This paper presents a method for linking AWE and neural AES, by extracting Topical Components (TCs) representing evidence from a source text using the intermediate output of attention layers. We evaluate performance using a feature-based AES requiring TCs. Results show that performance is comparable whether using automatically or manually constructed TCs for 1) representing essays as rubric-based features, 2) grading essays.",
+                    "Does this paper describe a method for connecting AWE and neural AES by identifying Topical Components (TCs) from attention layer outputs, and does it assess this method with a feature-based AES model?"
+                ],
+                [
+                    "This paper addresses the limitations of neural automated essay scoring (AES) by proposing a method to combine it with automated writing evaluation (AWE). The approach extracts key evidence components (TCs) from source texts using attention layer outputs to create a feature-based AES. Evaluations demonstrate comparable performance, regardless of whether the TCs are automatically or manually generated, for both representing essays and grading them.",
+                    "Does this paper describe a method for connecting AWE and neural AES by identifying Topical Components (TCs) from attention layer outputs, and does it assess this method with a feature-based AES model?"
+                ]
+            ],
+            "followup_outputs": [
+                "Yes, this paper presents a method to link AWE and neural AES by extracting Topical Components (TCs) from the intermediate output of attention layers, and evaluate it using a feature-based AES model.",
+                "Yes, the paper describes a method for connecting AWE and neural AES by identifying Topical Components (TCs) from attention layer outputs, and it assesses this method with a feature-based AES model.",
+                "Yes, this paper describes a method for connecting AWE and neural AES by identifying Topical Components (TCs) from attention layer outputs, and it assesses this method with a feature-based AES model."
+            ],
+            "relations": [
+                true,
+                true,
+                true
+            ],
+            "verif_failure": null
+        },
+        {
+            "id": 5,
+            "source_input": [
+                "While automated essay scoring (AES) can reliably grade essays at scale, automated writing evaluation (AWE) additionally provides formative feedback to guide essay revision. However, a neural AES typically does not provide useful feature representations for supporting AWE. This paper presents a method for linking AWE and neural AES, by extracting Topical Components (TCs) representing evidence from a source text using the intermediate output of attention layers. We evaluate performance using a feature-based AES requiring TCs. Results show that performance is comparable whether using automatically or manually constructed TCs for 1) representing essays as rubric-based features, 2) grading essays.",
+                "Did the evaluation show that automatically extracted Topical Components perform significantly worse than manual ones, making it completely impossible to use them for grading essays or representing rubric-based features?"
+            ],
+            "source_output": "No, the results showed that automatically or manually constructed Topical Components performed comparably for representing essays as rubric-based features and grading essays.",
+            "followup_inputs": [
+                [
+                    "This paper addresses the limitations of neural automated essay scoring (AES) by proposing a method to combine it with automated writing evaluation (AWE). The approach extracts key evidence components (TCs) from source texts using attention layer outputs to create a feature-based AES. Evaluations demonstrate comparable performance, regardless of whether the TCs are automatically or manually generated, for both representing essays and grading them.",
+                    "Did the evaluation show that automatically extracted Topical Components perform significantly worse than manual ones, making it completely impossible to use them for grading essays or representing rubric-based features?"
+                ],
+                [
+                    "While automated essay scoring (AES) can reliably grade essays at scale, automated writing evaluation (AWE) additionally provides formative feedback to guide essay revision. However, a neural AES typically does not provide useful feature representations for supporting AWE. This paper presents a method for linking AWE and neural AES, by extracting Topical Components (TCs) representing evidence from a source text using the intermediate output of attention layers. We evaluate performance using a feature-based AES requiring TCs. Results show that performance is comparable whether using automatically or manually constructed TCs for 1) representing essays as rubric-based features, 2) grading essays.",
+                    "Did the evaluation reveal that automatically extracted Topical Components performed much worse than manually created ones, rendering them unsuitable for grading essays or representing rubric criteria?"
+                ],
+                [
+                    "This paper addresses the limitations of neural automated essay scoring (AES) by proposing a method to combine it with automated writing evaluation (AWE). The approach extracts key evidence components (TCs) from source texts using attention layer outputs to create a feature-based AES. Evaluations demonstrate comparable performance, regardless of whether the TCs are automatically or manually generated, for both representing essays and grading them.",
+                    "Did the evaluation reveal that automatically extracted Topical Components performed much worse than manually created ones, rendering them unsuitable for grading essays or representing rubric criteria?"
+                ]
+            ],
+            "followup_outputs": [
+                "No, the evaluation demonstrated comparable performance regardless of whether TCs were automatically or manually generated.",
+                "The evaluation showed that performance was comparable whether using automatically or manually constructed Topical Components for grading essays or representing rubric criteria.",
+                "No, the evaluation demonstrated comparable performance regardless of whether the TCs were automatically or manually generated."
+            ],
+            "relations": [
+                false,
+                true,
+                false
+            ],
+            "verif_failure": null
+        },
+        {
+            "id": 6,
+            "source_input": [
+                "Writing a good job posting is a critical step in the recruiting process, but the task is often more difficult than many people think. It is challenging to specify the level of education, experience, relevant skills per the company information and job description. To this end, we propose a novel task of Job Posting Generation (JPG) which is cast as a conditional text generation problem to generate job requirements according to the job descriptions. To deal with this task, we devise a data-driven global Skill-Aware Multi-Attention generation model, named SAMA. Specifically, to model the complex mapping relationships between input and output, we design a hierarchical decoder that we first label the job description with multiple skills, then we generate a complete text guided by the skill labels. At the same time, to exploit the prior knowledge about the skills, we further construct a skill knowledge graph to capture the global prior knowledge of skills and refine the generated results. The proposed approach is evaluated on real-world job posting data. Experimental results clearly demonstrate the effectiveness of the proposed method.",
+                "Does the study use SAMA to model the complex mapping relationships between input and output?"
+            ],
+            "source_output": "Yes, the study uses SAMA to model the complex mapping relationships between input and output.",
+            "followup_inputs": [
+                [
+                    "Creating effective job postings is essential for recruitment, yet often difficult due to the challenge of accurately defining required education, experience, and skills. We\u2019ve developed a new system, SAMA, which uses a data-driven model with a hierarchical decoder and a skill knowledge graph to automatically generate job descriptions based on existing ones. This approach was successfully tested on real job postings and produced strong results.",
+                    "Does the study use SAMA to model the complex mapping relationships between input and output?"
+                ],
+                [
+                    "Writing a good job posting is a critical step in the recruiting process, but the task is often more difficult than many people think. It is challenging to specify the level of education, experience, relevant skills per the company information and job description. To this end, we propose a novel task of Job Posting Generation (JPG) which is cast as a conditional text generation problem to generate job requirements according to the job descriptions. To deal with this task, we devise a data-driven global Skill-Aware Multi-Attention generation model, named SAMA. Specifically, to model the complex mapping relationships between input and output, we design a hierarchical decoder that we first label the job description with multiple skills, then we generate a complete text guided by the skill labels. At the same time, to exploit the prior knowledge about the skills, we further construct a skill knowledge graph to capture the global prior knowledge of skills and refine the generated results. The proposed approach is evaluated on real-world job posting data. Experimental results clearly demonstrate the effectiveness of the proposed method.",
+                    "Does the study employ SAMA to model the intricate connections between input and output?"
+                ],
+                [
+                    "Creating effective job postings is essential for recruitment, yet often difficult due to the challenge of accurately defining required education, experience, and skills. We\u2019ve developed a new system, SAMA, which uses a data-driven model with a hierarchical decoder and a skill knowledge graph to automatically generate job descriptions based on existing ones. This approach was successfully tested on real job postings and produced strong results.",
+                    "Does the study employ SAMA to model the intricate connections between input and output?"
+                ]
+            ],
+            "followup_outputs": [
+                "Yes, the study uses SAMA to model the complex mapping relationships between input and output.",
+                "Yes, the study employs SAMA to model the complex mapping relationships between input and output.",
+                "Yes, the study employs SAMA to model the intricate connections between input and output."
+            ],
+            "relations": [
+                true,
+                true,
+                true
+            ],
+            "verif_failure": null
+        },
+        {
+            "id": 7,
+            "source_input": [
+                "Writing a good job posting is a critical step in the recruiting process, but the task is often more difficult than many people think. It is challenging to specify the level of education, experience, relevant skills per the company information and job description. To this end, we propose a novel task of Job Posting Generation (JPG) which is cast as a conditional text generation problem to generate job requirements according to the job descriptions. To deal with this task, we devise a data-driven global Skill-Aware Multi-Attention generation model, named SAMA. Specifically, to model the complex mapping relationships between input and output, we design a hierarchical decoder that we first label the job description with multiple skills, then we generate a complete text guided by the skill labels. At the same time, to exploit the prior knowledge about the skills, we further construct a skill knowledge graph to capture the global prior knowledge of skills and refine the generated results. The proposed approach is evaluated on real-world job posting data. Experimental results clearly demonstrate the effectiveness of the proposed method.",
+                "Did they evaluate the model using only virtual or simulated jobs?"
+            ],
+            "source_output": "The experimental results were evaluated on real-world job posting data.",
+            "followup_inputs": [
+                [
+                    "Creating effective job postings is essential for recruitment, but it\u2019s often harder than it seems. It\u2019s difficult to accurately detail the required education, experience, and skills based on the job description. We\u2019ve developed a new system, SAMA, which uses a multi-attention model with a hierarchical decoder and a skill knowledge graph to automatically generate job postings from existing descriptions. Testing on real data shows this approach is highly effective.",
+                    "Did they evaluate the model using only virtual or simulated jobs?"
+                ],
+                [
+                    "Writing a good job posting is a critical step in the recruiting process, but the task is often more difficult than many people think. It is challenging to specify the level of education, experience, relevant skills per the company information and job description. To this end, we propose a novel task of Job Posting Generation (JPG) which is cast as a conditional text generation problem to generate job requirements according to the job descriptions. To deal with this task, we devise a data-driven global Skill-Aware Multi-Attention generation model, named SAMA. Specifically, to model the complex mapping relationships between input and output, we design a hierarchical decoder that we first label the job description with multiple skills, then we generate a complete text guided by the skill labels. At the same time, to exploit the prior knowledge about the skills, we further construct a skill knowledge graph to capture the global prior knowledge of skills and refine the generated results. The proposed approach is evaluated on real-world job posting data. Experimental results clearly demonstrate the effectiveness of the proposed method.",
+                    "Were virtual or simulated jobs used to assess the model?"
+                ],
+                [
+                    "Creating effective job postings is essential for recruitment, but it\u2019s often harder than it seems. It\u2019s difficult to accurately detail the required education, experience, and skills based on the job description. We\u2019ve developed a new system, SAMA, which uses a multi-attention model with a hierarchical decoder and a skill knowledge graph to automatically generate job postings from existing descriptions. Testing on real data shows this approach is highly effective.",
+                    "Were virtual or simulated jobs used to assess the model?"
+                ]
+            ],
+            "followup_outputs": [
+                "The information states the model was tested on real data.",
+                "unknown",
+                "unknown"
+            ],
+            "relations": [
+                true,
+                false,
+                false
+            ],
+            "verif_failure": null
+        },
+        {
+            "id": 8,
+            "source_input": [
+                "Transformers have gradually become a key component for many state-of-the-art natural language representation models. A recent Transformer based model- BERTachieved state-of-the-art results on various natural language processing tasks, including GLUE, SQuAD v1.1, and SQuAD v2.0. This model however is computationally prohibitive and has a huge number of parameters. In this work we revisit the architecture choices of BERT in efforts to obtain a lighter model. We focus on reducing the number of parameters yet our methods can be applied towards other objectives such FLOPs or latency. We show that much efficient light BERT models can be obtained by reducing algorithmically chosen correct architecture design dimensions rather than reducing the number of Transformer encoder layers. In particular, our schuBERT gives 6.6% higher average accuracy on GLUE and SQuAD datasets as compared to BERT with three encoder layers while having the same number of parameters.",
+                "Does this paper introduce schuBERT, a lighter variant of BERT that reduces parameters by algorithmically choosing architectural design dimensions rather than simply cutting down the number of Transformer encoder layers?"
+            ],
+            "source_output": "Yes, this paper introduces schuBERT, a lighter variant of BERT that reduces parameters by algorithmically choosing architectural design dimensions rather than simply cutting down the number of Transformer encoder layers.",
+            "followup_inputs": [
+                [
+                    "Researchers have re-examined the design of BERT, a powerful Transformer-based language model, to create a more efficient version. While BERT achieves excellent results on tasks like GLUE and SQuAD, it\u2019s computationally expensive. Our work demonstrates that reducing the complexity of the architecture itself \u2013 specifically, decreasing the number of layers \u2013 is more effective than simply reducing the model\u2019s overall size. A lighter version, schuBERT, achieved 6.6% higher accuracy on GLUE and SQuAD datasets compared to BERT, using the same number of parameters.",
+                    "Does this paper introduce schuBERT, a lighter variant of BERT that reduces parameters by algorithmically choosing architectural design dimensions rather than simply cutting down the number of Transformer encoder layers?"
+                ],
+                [
+                    "Transformers have gradually become a key component for many state-of-the-art natural language representation models. A recent Transformer based model- BERTachieved state-of-the-art results on various natural language processing tasks, including GLUE, SQuAD v1.1, and SQuAD v2.0. This model however is computationally prohibitive and has a huge number of parameters. In this work we revisit the architecture choices of BERT in efforts to obtain a lighter model. We focus on reducing the number of parameters yet our methods can be applied towards other objectives such FLOPs or latency. We show that much efficient light BERT models can be obtained by reducing algorithmically chosen correct architecture design dimensions rather than reducing the number of Transformer encoder layers. In particular, our schuBERT gives 6.6% higher average accuracy on GLUE and SQuAD datasets as compared to BERT with three encoder layers while having the same number of parameters.",
+                    "Does this paper present schuBERT, a more efficient version of BERT that uses algorithmic design choices to reduce its size, instead of just removing layers?"
+                ],
+                [
+                    "Researchers have re-examined the design of BERT, a powerful Transformer-based language model, to create a more efficient version. While BERT achieves excellent results on tasks like GLUE and SQuAD, it\u2019s computationally expensive. Our work demonstrates that reducing the complexity of the architecture itself \u2013 specifically, decreasing the number of layers \u2013 is more effective than simply reducing the model\u2019s overall size. A lighter version, schuBERT, achieved 6.6% higher accuracy on GLUE and SQuAD datasets compared to BERT, using the same number of parameters.",
+                    "Does this paper present schuBERT, a more efficient version of BERT that uses algorithmic design choices to reduce its size, instead of just removing layers?"
+                ]
+            ],
+            "followup_outputs": [
+                "Yes, this paper introduces schuBERT, a lighter variant of BERT that reduces complexity by decreasing the number of layers, rather than simply reducing overall size.",
+                "Yes, this paper presents schuBERT, a more efficient version of BERT that uses algorithmic design choices to reduce its size instead of just removing layers.",
+                "Yes, this paper presents schuBERT, a more efficient version of BERT achieved through reducing the number of layers in the architecture, rather than simply reducing the model\u2019s overall size."
+            ],
+            "relations": [
+                true,
+                true,
+                true
+            ],
+            "verif_failure": null
+        },
+        {
+            "id": 9,
+            "source_input": [
+                "Transformers have gradually become a key component for many state-of-the-art natural language representation models. A recent Transformer based model- BERTachieved state-of-the-art results on various natural language processing tasks, including GLUE, SQuAD v1.1, and SQuAD v2.0. This model however is computationally prohibitive and has a huge number of parameters. In this work we revisit the architecture choices of BERT in efforts to obtain a lighter model. We focus on reducing the number of parameters yet our methods can be applied towards other objectives such FLOPs or latency. We show that much efficient light BERT models can be obtained by reducing algorithmically chosen correct architecture design dimensions rather than reducing the number of Transformer encoder layers. In particular, our schuBERT gives 6.6% higher average accuracy on GLUE and SQuAD datasets as compared to BERT with three encoder layers while having the same number of parameters.",
+                "Does the author state that schuBERT results in a 6.6% lower average accuracy on GLUE and SQuAD benchmarks compared to a three-layer BERT model, proving that dimension reduction fails?"
+            ],
+            "source_output": "No, the author states that schuBERT achieves 6.6% higher average accuracy on GLUE and SQuAD datasets compared to BERT with three encoder layers.",
+            "followup_inputs": [
+                [
+                    "Recent Transformer-based models, like BERT, have achieved top results on natural language processing tasks. However, BERT is computationally expensive. This research explores lighter BERT models by focusing on architectural design rather than simply reducing the number of layers. Our method, schuBERT, achieves better accuracy (6.6% higher on GLUE and SQuAD) with the same number of parameters as BERT with three encoder layers.",
+                    "Does the author state that schuBERT results in a 6.6% lower average accuracy on GLUE and SQuAD benchmarks compared to a three-layer BERT model, proving that dimension reduction fails?"
+                ],
+                [
+                    "Transformers have gradually become a key component for many state-of-the-art natural language representation models. A recent Transformer based model- BERTachieved state-of-the-art results on various natural language processing tasks, including GLUE, SQuAD v1.1, and SQuAD v2.0. This model however is computationally prohibitive and has a huge number of parameters. In this work we revisit the architecture choices of BERT in efforts to obtain a lighter model. We focus on reducing the number of parameters yet our methods can be applied towards other objectives such FLOPs or latency. We show that much efficient light BERT models can be obtained by reducing algorithmically chosen correct architecture design dimensions rather than reducing the number of Transformer encoder layers. In particular, our schuBERT gives 6.6% higher average accuracy on GLUE and SQuAD datasets as compared to BERT with three encoder layers while having the same number of parameters.",
+                    "Does the author show that schuBERT\u2019s results\u2014a 6.6% lower average accuracy on GLUE and SQuAD benchmarks compared to a three-layer BERT model\u2014demonstrate that dimension reduction is ineffective?"
+                ],
+                [
+                    "Recent Transformer-based models, like BERT, have achieved top results on natural language processing tasks. However, BERT is computationally expensive. This research explores lighter BERT models by focusing on architectural design rather than simply reducing the number of layers. Our method, schuBERT, achieves better accuracy (6.6% higher on GLUE and SQuAD) with the same number of parameters as BERT with three encoder layers.",
+                    "Does the author show that schuBERT\u2019s results\u2014a 6.6% lower average accuracy on GLUE and SQuAD benchmarks compared to a three-layer BERT model\u2014demonstrate that dimension reduction is ineffective?"
+                ]
+            ],
+            "followup_outputs": [
+                "No, the author states that schuBERT achieves a 6.6% higher accuracy on GLUE and SQuAD compared to a three-layer BERT model.",
+                "No, the author shows that schuBERT achieves 6.6% higher average accuracy than a three-layer BERT model, demonstrating the effectiveness of dimension reduction.",
+                "No, the author demonstrates the opposite, showing schuBERT achieves better accuracy than a three-layer BERT model."
+            ],
+            "relations": [
+                true,
+                true,
+                true
+            ],
+            "verif_failure": null
+        }
+    ]
+}

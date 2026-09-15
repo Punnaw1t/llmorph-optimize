@@ -164,3 +164,7 @@ cython_debug/
 .idea
 relations.json
 .python-version
+
+GoogleNews-vectors-negative300.bin
+
+*.bin
