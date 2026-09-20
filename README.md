@@ -23,6 +23,7 @@ pip install -r requirements.txt
 and
 ```
 nltk.download('punkt')
+python -m spacy download en_core_web_sm
 ```
 
 An OpenAI key is needed in `security/token-key.jwt`.

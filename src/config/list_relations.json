@@ -25,7 +25,7 @@
             "func_or": {"class": "relations.func_or.OREquivalence"}
         },
         "149": {
-            "func_it": {"class": "relations.func_it.ITGPTSentence", "kwargs": {"$template": "it_prompt:singular_plural"}},
+            "func_it": {"class": "relations.func_it.ITSingularPlural"},
             "func_or": {"class": "relations.func_or.OREquivalence"},
             "exceptions": ["inference"]
         },
@@ -35,7 +35,7 @@
             "exceptions": ["sentiment_analysis_continuous"]
         },
         "136": {
-            "func_it": {"class": "relations.func_it.ITGPT", "kwargs": {"$template": "it_prompt:passive_active"}},
+            "func_it": {"class": "relations.func_it.ITNlpaug", "args": ["passive_active"]},
             "func_or": {"class": "relations.func_or.OREquivalence"},
             "exceptions": ["sentiment_analysis_continuous"]
         },
